@@ -1,0 +1,15 @@
+{
+	"name": "jesus-acim-corrected-hlc",
+	"version": "1.0.0",
+	"description": "A Course in Miracles, Original version with corrections by Doug Thompson",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "npx @11ty/eleventy --serve"
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"@11ty/eleventy": "^0.12.1"
+	}
+}
