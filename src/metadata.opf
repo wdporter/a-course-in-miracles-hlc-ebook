@@ -46,6 +46,7 @@
 	</manifest>
 
 	<spine>
+		<itemref idref="titlepage" />
 		<itemref idref="nav" />
 		<itemref idref="text-1" />
 		<itemref idref="text-2" />
