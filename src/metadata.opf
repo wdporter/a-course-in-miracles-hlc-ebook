@@ -1,18 +1,15 @@
 <?xml version='1.0' encoding='utf-8'?>
-<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub_id"
-	version="3.0">
+<package xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub_id" xml:lang="en-au" version="3.0" >
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="pub_id">
-			urn:uuid:f9f0c0f3-b600-4c26-a0c6-dca1b3f723ae</dc:identifier>
-		<dc:title>A Course in Miracles — HLC</dc:title>
+		<dc:identifier id="pub_id">urn:uuid:f9f0c0f3-b600-4c26-a0c6-dca1b3f723ae</dc:identifier>
+		<dc:title>A Course in Miracles — Text</dc:title>
 		<dc:creator>Jesus of the Course</dc:creator>
-		<dc:language>en</dc:language>
-		<meta property="dcterms:modified">2021-06-28T20:00:00Z</meta>
+		<dc:language>en-au</dc:language>
+		<meta property="dcterms:modified">2021-07-28T20:00:00Z</meta>
 	</metadata>
 	<manifest>
 		<item href="acim.css" id="stylesheet" media-type="text/css" />
-		<item href="nav.xhtml" id="nav" properties="nav"
-			media-type="application/xhtml+xml" />
+		<item href="nav.xhtml" id="nav" properties="nav" media-type="application/xhtml+xml" />
 		<item href="text-1.xhtml" id="text-1" media-type="application/xhtml+xml" />
 		<item href="text-2.xhtml" id="text-2" media-type="application/xhtml+xml" />
 		<item href="text-3.xhtml" id="text-3" media-type="application/xhtml+xml" />
@@ -22,54 +19,30 @@
 		<item href="text-7.xhtml" id="text-7" media-type="application/xhtml+xml" />
 		<item href="text-8.xhtml" id="text-8" media-type="application/xhtml+xml" />
 		<item href="text-9.xhtml" id="text-9" media-type="application/xhtml+xml" />
-		<item href="text-10.xhtml" id="text-10"
-			media-type="application/xhtml+xml" />
-		<item href="text-11.xhtml" id="text-11"
-			media-type="application/xhtml+xml" />
-		<item href="text-12.xhtml" id="text-12"
-			media-type="application/xhtml+xml" />
-		<item href="text-13.xhtml" id="text-13"
-			media-type="application/xhtml+xml" />
-		<item href="text-14.xhtml" id="text-14"
-			media-type="application/xhtml+xml" />
-		<item href="text-15.xhtml" id="text-15"
-			media-type="application/xhtml+xml" />
-		<item href="text-16.xhtml" id="text-16"
-			media-type="application/xhtml+xml" />
-		<item href="text-17.xhtml" id="text-17"
-			media-type="application/xhtml+xml" />
-		<item href="text-18.xhtml" id="text-18"
-			media-type="application/xhtml+xml" />
-		<item href="text-19.xhtml" id="text-19"
-			media-type="application/xhtml+xml" />
-		<item href="text-20.xhtml" id="text-20"
-			media-type="application/xhtml+xml" />
-		<item href="text-21.xhtml" id="text-21"
-			media-type="application/xhtml+xml" />
-		<item href="text-22.xhtml" id="text-22"
-			media-type="application/xhtml+xml" />
-		<item href="text-23.xhtml" id="text-23"
-			media-type="application/xhtml+xml" />
-		<item href="text-24.xhtml" id="text-24"
-			media-type="application/xhtml+xml" />
-		<item href="text-25.xhtml" id="text-25"
-			media-type="application/xhtml+xml" />
-		<item href="text-26.xhtml" id="text-26"
-			media-type="application/xhtml+xml" />
-		<item href="text-27.xhtml" id="text-27"
-			media-type="application/xhtml+xml" />
-		<item href="text-28.xhtml" id="text-28"
-			media-type="application/xhtml+xml" />
-		<item href="text-29.xhtml" id="text-29"
-			media-type="application/xhtml+xml" />
-		<item href="text-30.xhtml" id="text-30"
-			media-type="application/xhtml+xml" />
-		<item href="text-31.xhtml" id="text-31"
-			media-type="application/xhtml+xml" />
-		<item href="cover.jpg" id="cover" media-type="image/jpeg"
-			properties="cover-image" />
-		<item id="titlepage" href="titlepage.xhtml"
-			media-type="application/xhtml+xml" properties="svg calibre:title-page" />
+		<item href="text-10.xhtml" id="text-10" media-type="application/xhtml+xml" />
+		<item href="text-11.xhtml" id="text-11" media-type="application/xhtml+xml" />
+		<item href="text-12.xhtml" id="text-12" media-type="application/xhtml+xml" />
+		<item href="text-13.xhtml" id="text-13" media-type="application/xhtml+xml" />
+		<item href="text-14.xhtml" id="text-14" media-type="application/xhtml+xml" />
+		<item href="text-15.xhtml" id="text-15" media-type="application/xhtml+xml" />
+		<item href="text-16.xhtml" id="text-16" media-type="application/xhtml+xml" />
+		<item href="text-17.xhtml" id="text-17" media-type="application/xhtml+xml" />
+		<item href="text-18.xhtml" id="text-18" media-type="application/xhtml+xml" />
+		<item href="text-19.xhtml" id="text-19" media-type="application/xhtml+xml" />
+		<item href="text-20.xhtml" id="text-20" media-type="application/xhtml+xml" />
+		<item href="text-21.xhtml" id="text-21" media-type="application/xhtml+xml" />
+		<item href="text-22.xhtml" id="text-22" media-type="application/xhtml+xml" />
+		<item href="text-23.xhtml" id="text-23" media-type="application/xhtml+xml" />
+		<item href="text-24.xhtml" id="text-24" media-type="application/xhtml+xml" />
+		<item href="text-25.xhtml" id="text-25" media-type="application/xhtml+xml" />
+		<item href="text-26.xhtml" id="text-26" media-type="application/xhtml+xml" />
+		<item href="text-27.xhtml" id="text-27" media-type="application/xhtml+xml" />
+		<item href="text-28.xhtml" id="text-28" media-type="application/xhtml+xml" />
+		<item href="text-29.xhtml" id="text-29" media-type="application/xhtml+xml" />
+		<item href="text-30.xhtml" id="text-30" media-type="application/xhtml+xml" />
+		<item href="text-31.xhtml" id="text-31" media-type="application/xhtml+xml" />
+		<item href="cover.jpg" id="cover" media-type="image/jpeg" properties="cover-image" />
+		<item id="titlepage" href="titlepage.xhtml" media-type="application/xhtml+xml" />
 	</manifest>
 
 	<spine>
