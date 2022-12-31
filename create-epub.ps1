@@ -1,5 +1,5 @@
 #delete book if exsiting
-if (test-path acim-hlc.epub) { remove-item acim-hlc.epub -ea ig }
+if (test-path "A Course in Miracles - HLC.epub") { remove-item acim-hlc.epub -ea ig }
 
 #delete dist folder
 if (test-path dist ) { remove-item dist -recurse -force }
@@ -11,10 +11,10 @@ pnpm run build
 rename-item -path dist\mimetype -newname !mimetype
 
 #create the archive
-C:\"Program Files"\7-Zip\7z a -tzip acim-hlc.epub .\dist\*
+C:\"Program Files"\7-Zip\7z a -tzip "A Course in Miracles - HLC.epub" .\dist\*
 
 # rename !mimetype  
-C:\"Program Files"\7-Zip\7z rn acim-hlc.epub !mimetype mimetype
+C:\"Program Files"\7-Zip\7z rn "A Course in Miracles - HLC.epub" !mimetype mimetype
 
 
 
