@@ -41,6 +41,7 @@
 		<item href="text-29.xhtml" id="text-29" media-type="application/xhtml+xml" />
 		<item href="text-30.xhtml" id="text-30" media-type="application/xhtml+xml" />
 		<item href="text-31.xhtml" id="text-31" media-type="application/xhtml+xml" />
+		<item href="titlepage.xhtml" id="titlepage" media-type="application/xhtml+xml" />
 		<item href="cover.jpg" id="cover" media-type="image/jpeg" properties="cover-image" />
 	</manifest>
 
