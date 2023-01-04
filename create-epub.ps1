@@ -1,5 +1,7 @@
+$name = "A Course in Miracles - HLC - Text.epub"
+
 #delete book if exsiting
-if (test-path "A Course in Miracles — Text HLC.epub") { remove-item "A Course in Miracles — Text HLC.epub" -ea ig }
+if (test-path $name) { remove-item $name -ea ig }
 
 #delete dist folder
 if (test-path dist ) { remove-item dist -recurse -force }
@@ -11,10 +13,10 @@ npm run build
 rename-item -path dist\mimetype -newname !mimetype
 
 #create the archive
-C:\"Program Files"\7-Zip\7z a -tzip "A Course in Miracles — Text HLC.epub" .\dist\*
+C:\"Program Files"\7-Zip\7z a -tzip $name .\dist\*
 
 # rename !mimetype  
-C:\"Program Files"\7-Zip\7z rn "A Course in Miracles — Text HLC.epub" !mimetype mimetype
+C:\"Program Files"\7-Zip\7z rn $name !mimetype mimetype
 
 
 
