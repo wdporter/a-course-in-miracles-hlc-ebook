@@ -2,7 +2,7 @@
 <package xmlns="http://www.idpf.org/2007/opf" unique-identifier="pub_id" xml:lang="en-au" version="3.0" >
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
 		<dc:identifier id="pub_id">urn:uuid:f9f0c0f3-b600-4c26-a0c6-dca1b3f723ae</dc:identifier>
-		<dc:title>A Course in Miracles — Text</dc:title>
+		<dc:title>A Course in Miracles – Text</dc:title>
 		<dc:creator>Jesus of the Course</dc:creator>
 		<dc:language>en-au</dc:language>
 		<meta property="dcterms:modified">2021-07-28T20:00:00Z</meta>
